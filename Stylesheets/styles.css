@@ -14,9 +14,7 @@ body, html {
   background-image: url("http://www.designlovefest.com/wp-content/uploads/downloads/2014/07/WatercolorFloralBorder_by_JulieSongInk1.jpg");
   height: 100%;
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative; }
+  background-size: cover; }
 
 .hero-text {
   text-align: center;
@@ -25,7 +23,13 @@ body, html {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  color: white; }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
 
 h1 {
   font-size: 5em;
@@ -33,7 +37,8 @@ h1 {
   -webkit-animation-name: fadeInDownBig;
           animation-name: fadeInDownBig;
   -webkit-animation-duration: 1s;
-          animation-duration: 1s; }
+          animation-duration: 1s;
+  margin: 0; }
 
 @-webkit-keyframes fadeInDownBig {
   from {
@@ -56,14 +61,16 @@ h1 {
             transform: none; } }
 .hero-p {
   color: #3a5b8d;
-  margin-bottom: 40px; }
+  font-size: 20px; }
 
 .hero-btn {
   border-radius: 10px;
-  padding: 20px;
-  background-color: #12233e;
+  padding: 10px;
+  background-color: #2a8a78;
   font-family: 'Pacifico', cursive;
   color: #a6d7cf;
-  /*border: none;*/ }
+  font-size: 20px;
+  -ms-flex-item-align: center;
+      align-self: center; }
 
 /*# sourceMappingURL=styles.css.map */

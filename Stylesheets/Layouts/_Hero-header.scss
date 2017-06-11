@@ -3,16 +3,14 @@ body, html{
   height: 100%;
   font-family: $default-font-family;
   margin: 0;
+
 }
 
 .hero-image{
-  // background-color: $main-color;
-   background-image: url("http://www.designlovefest.com/wp-content/uploads/downloads/2014/07/WatercolorFloralBorder_by_JulieSongInk1.jpg");
+  background-image: url("http://www.designlovefest.com/wp-content/uploads/downloads/2014/07/WatercolorFloralBorder_by_JulieSongInk1.jpg");
   height: 100%;
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
 }
 
 .hero-text {
@@ -21,7 +19,8 @@ body, html{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  display: flex;
+  flex-direction: column;
 }
 
 h1{
@@ -29,6 +28,7 @@ h1{
   color: $main-color;
   animation-name: fadeInDownBig;
   animation-duration: 1s;
+  margin: 0;
 }
 
 @keyframes fadeInDownBig {
@@ -45,5 +45,5 @@ to {
 
 .hero-p{
   color: #3a5b8d;
-  margin-bottom: 40px;
+  font-size: 20px;
 }
