@@ -1,0 +1,67 @@
+/* color de background*/
+/*color p*/
+/* azul oscuro*/
+/*celeste*/
+/*rosa claro*/
+body, html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100%;
+  font-family: "Pacifico", cursive;
+  margin: 0; }
+
+.hero-image {
+  background-color: #f6a7ac;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: white; }
+
+h1 {
+  font-size: 5em;
+  -webkit-animation-name: fadeInDownBig;
+          animation-name: fadeInDownBig;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s; }
+
+@-webkit-keyframes fadeInDownBig {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -2000px, 0);
+            transform: translate3d(0, -2000px, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none; } }
+
+@keyframes fadeInDownBig {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -2000px, 0);
+            transform: translate3d(0, -2000px, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none; } }
+.hero-p {
+  color: #3a5b8d; }
+
+.hero-btn {
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #12233e;
+  font-family: 'Pacifico', cursive;
+  color: #a6d7cf;
+  /*border: none;*/ }
+
+/*# sourceMappingURL=styles.css.map */
