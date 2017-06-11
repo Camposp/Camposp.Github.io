@@ -11,7 +11,7 @@ body, html {
   margin: 0; }
 
 .hero-image {
-  background-color: #f6a7ac;
+  background-image: url("http://www.designlovefest.com/wp-content/uploads/downloads/2014/07/WatercolorFloralBorder_by_JulieSongInk1.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -29,6 +29,7 @@ body, html {
 
 h1 {
   font-size: 5em;
+  color: #f6a7ac;
   -webkit-animation-name: fadeInDownBig;
           animation-name: fadeInDownBig;
   -webkit-animation-duration: 1s;
@@ -54,7 +55,8 @@ h1 {
     -webkit-transform: none;
             transform: none; } }
 .hero-p {
-  color: #3a5b8d; }
+  color: #3a5b8d;
+  margin-bottom: 40px; }
 
 .hero-btn {
   border-radius: 10px;

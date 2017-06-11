@@ -6,7 +6,8 @@ body, html{
 }
 
 .hero-image{
-  background-color: $main-color;
+  // background-color: $main-color;
+   background-image: url("http://www.designlovefest.com/wp-content/uploads/downloads/2014/07/WatercolorFloralBorder_by_JulieSongInk1.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -25,6 +26,7 @@ body, html{
 
 h1{
   font-size: 5em;
+  color: $main-color;
   animation-name: fadeInDownBig;
   animation-duration: 1s;
 }
@@ -43,4 +45,5 @@ to {
 
 .hero-p{
   color: #3a5b8d;
+  margin-bottom: 40px;
 }
