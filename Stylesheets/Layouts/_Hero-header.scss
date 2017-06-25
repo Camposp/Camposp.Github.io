@@ -1,25 +1,30 @@
 body, html{
   box-sizing: border-box;
   height: 100%;
-  font-family: $default-font-family;
   margin: 0;
+}
+
+h1{
+  font-family: $title-font-family;
 }
 
 .hero-image{
   background-image: url("http://www.designlovefest.com/wp-content/uploads/downloads/2014/07/WatercolorFloralBorder_by_JulieSongInk1.jpg");
-  height: 100%;
+  height: 100vh  ;
   background-position: center;
   background-size: cover;
+  display: flex;
+  justify-content: center;
 }
 
 .hero-text {
   text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  margin-top: -7px;
+  font-family: $default-font-family;
+
 }
 
 h1{
@@ -45,4 +50,10 @@ to {
 .hero-p{
   color: #3a5b8d;
   font-size: 20px;
+}
+
+.social-icons{
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
 }
